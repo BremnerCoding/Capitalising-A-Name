@@ -24,5 +24,5 @@ document.getElementById("submitButton").onclick = function() {
         };
     };
     fullName = capitalisedFirstName + " " + capitalisedLastName;
-    console.log(fullName);
+    document.getElementById("result").innerHTML = "Result: " + fullName;
 };
